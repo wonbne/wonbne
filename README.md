@@ -18,7 +18,7 @@
 
 🧓 **어르심 (CareOne)**  
 노인 복지관 프로그램을 추천해주는 웹 플랫폼  
-→ Spring Boot + JWT + MongoDB + Docker + GitHub Actions + GCP
+→ Spring Boot + JWT + MongoDB + Docker + GitHub Actions + GCP  
 🔗 [GitHub](https://github.com/KGU-HouseOfChoi)
 
 🏭 **스마트팩토리 AI 품질 검사 시스템**  
