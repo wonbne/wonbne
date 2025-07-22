@@ -18,13 +18,13 @@
 
 🧓 **어르심 (CareOne)**  
 노인 복지관 프로그램을 추천해주는 웹 플랫폼  
-→ Spring Boot + JWT + MongoDB + Docker + GitHub Actions  
-🔗 [GitHub](https://github.com/너의-리포지토리)
+→ Spring Boot + JWT + MongoDB + Docker + GitHub Actions + GCP
+🔗 [GitHub](https://github.com/KGU-HouseOfChoi)
 
 🏭 **스마트팩토리 AI 품질 검사 시스템**  
 YOLO 기반 비전 모델과 Raspberry Pi 실시간 품질 분류 시스템  
-→ FastAPI + Spring Boot + MySQL + GCP  
-🔗 [GitHub](https://github.com/너의-리포지토리)
+→ FastAPI + Spring Boot + MongoDB + Docker + GitHub Actions + GCP  
+🔗 [GitHub](https://github.com/KSEB-04-2025)
 
 ---
 
