@@ -19,8 +19,8 @@ YOLO 기반 비전 모델과 Raspberry Pi 실시간 품질 분류 시스템
 
 ### 📈 GitHub Stats
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KGU-HouseOfChoi&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=KGU-HouseOfChoi&show_icons=true&theme=tokyonight&hide=issues)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wonbne&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=wonbne&show_icons=true&theme=tokyonight&hide=issues)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
@@ -33,9 +33,7 @@ YOLO 기반 비전 모델과 Raspberry Pi 실시간 품질 분류 시스템
 ![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
-
 ---
-
 
 ### 📫 Contact
 - 📬 Email: ah0416@naver.com
