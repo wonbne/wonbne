@@ -19,7 +19,6 @@ YOLO 기반 비전 모델과 Raspberry Pi 실시간 품질 분류 시스템
 
 ### 📈 GitHub Stats
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wonbne&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=wonbne&show_icons=true&theme=tokyonight&hide=issues)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
