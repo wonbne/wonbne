@@ -5,7 +5,7 @@
 
 ### 💡 Projects
 
-🧓 **어르심 (CareOne)**  
+🧓 **어르심**  
 노인 복지관 프로그램을 추천해주는 웹 플랫폼  
 → Spring Boot + JWT + MySQL + Docker + GitHub Actions + GCP  
 🔗 [GitHub](https://github.com/KGU-HouseOfChoi)
