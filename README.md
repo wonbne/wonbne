@@ -10,8 +10,8 @@
 → Spring Boot + JWT + MySQL + Docker + GitHub Actions + GCP  
 🔗 [GitHub](https://github.com/KGU-HouseOfChoi)
 
-🏭 **스마트팩토리 AI 품질 검사 시스템**  
-YOLO 기반 비전 모델과 Raspberry Pi 실시간 품질 분류 시스템  
+🏭 **VODA**  
+난반사 소재 결함 관리 및 품질 분류 통합 서비스  
 → FastAPI + Spring Boot + MongoDB + Docker + GitHub Actions + GCP  
 🔗 [GitHub](https://github.com/KSEB-04-2025)
 
