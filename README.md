@@ -13,7 +13,7 @@
 🏭 **VODA**  
 난반사 소재 결함 관리 및 품질 분류 통합 서비스  
 → FastAPI + Spring Boot + MongoDB + Docker + GitHub Actions + GCP  
-🔗 [GitHub](https://github.com/KSEB-04-2025)
+🔗 [GitHub](https://github.com/ZEZEONE-VODA/VODA_BE)
 
 ---
 
