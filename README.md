@@ -20,8 +20,6 @@
 ### 📈 GitHub Stats
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=wonbne&show_icons=true&theme=tokyonight&hide=issues)](https://github.com/anuraghazra/github-readme-stats)
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wonbne&layout=compact&theme=radical" height="180"/>
-
 
 ---
 
