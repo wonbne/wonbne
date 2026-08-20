@@ -23,8 +23,6 @@
 
 ### 📈 GitHub Stats
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=wonbne&theme=tokyonight)](https://github.com/wonbne)
-
 [![Contribution Graph](https://ghchart.rshah.org/70a5fd/wonbne)](https://github.com/wonbne)
 
 ---
