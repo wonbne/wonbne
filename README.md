@@ -15,7 +15,7 @@
 
 `Java 21` `Spring Boot` `PostgreSQL / TimescaleDB` `MQTT` `STOMP` `Docker` `Nginx` `GitLab CI` `AWS EC2`
 
-> [GitHub](https://github.com/Common-AIOT/Sentinel-UGV)
+> 코드 비공개 — 교육기관 GitLab에서 진행
 
 <br>
 
@@ -68,6 +68,15 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Amazon EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat&logo=amazonec2&logoColor=white)
 ![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+
+---
+### 🎓 Education & Activities
+
+**SSAFY 15기** — 삼성 청년 SW 아카데미 `2026.01 - `  
+Java 기반 웹 풀스택 교육 및 팀 프로젝트 수행
+
+**LG Aimers 5기** — LG AI 전문가 양성 과정 `2024.07 - 2024.08`  
+AI/ML 온라인 교육 과정 이수 및 해커톤 참여
 
 ---
 
