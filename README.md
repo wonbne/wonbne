@@ -5,43 +5,63 @@
 
 ### 💡 Projects
 
-🤖 **Sentinel UGV**  
+#### 🤖 Sentinel UGV
 재난 현장 자율 탐사 로봇의 실시간 관제 시스템  
-→ Spring Boot + TimescaleDB + MQTT + Next.js + GitLab CI + EC2  
+`6인 팀 · 4주` · **담당: 관제 백엔드 전담, CI/CD·인프라**
 
-🧓 **어르심**  
-노인 복지관 프로그램을 추천해주는 웹 플랫폼  
-→ Spring Boot + JWT + MySQL + Docker + GitHub Actions + GCP  
-🔗 [GitHub](https://github.com/KGU-HouseOfChoi)
+- 로봇 텔레메트리를 MQTT로 수집해 TimescaleDB에 적재하고 STOMP WebSocket으로 관제 화면에 전달하는 실시간 파이프라인 구현
+- 관제 화면의 상태 조회를 폴링에서 푸시 방식으로 전환
+- GitLab CI 자동 배포 파이프라인 구축 및 배포 후 health 검증·자동 롤백 적용
 
-🏭 **VODA**  
+`Java 21` `Spring Boot` `PostgreSQL / TimescaleDB` `MQTT` `STOMP` `Docker` `Nginx` `GitLab CI` `AWS EC2`
+
+> [GitHub](https://github.com/Common-AIOT/Sentinel-UGV)
+
+<br>
+
+#### 🏭 VODA
 난반사 소재 결함 관리 및 품질 분류 통합 서비스  
-→ FastAPI + Spring Boot + MongoDB + Docker + GitHub Actions + GCP  
+**담당: 백엔드 개발, DevOps**
+
+- 품질 판별, 등급 분포, 품질 편차 분석, 상태 모니터링 API 구현
+- MongoDB와 GCS를 연동해 검사 데이터와 검사 이미지를 함께 관리
+- Docker 기반 실행 환경 구성 및 GitHub Actions로 이미지 빌드·GCP 배포 자동화
+
+`Java` `Spring Boot` `MongoDB` `GCS` `Docker` `GitHub Actions` `GCP`
+
 🔗 [GitHub](https://github.com/ZEZEONE-VODA/VODA_BE)
 
----
+<br>
 
-### 📈 GitHub Stats
+#### 🧓 어르심
+노인 복지관 프로그램을 추천해주는 웹 플랫폼  
+**담당: 백엔드 개발, DB 설계**
 
-[![Contribution Graph](https://ghchart.rshah.org/70a5fd/wonbne)](https://github.com/wonbne)
+- 서비스 전반의 관계형 DB 설계 및 ERD 작성
+- 프로그램 조회, 일정 관리 CRUD, 가족 계정 연동 기능을 REST API로 구현
+- JWT 기반 인증 적용 및 사용자 권한 분리
+
+`Java` `Spring Boot` `JPA` `MySQL` `JWT` `Docker` `GitHub Actions` `GCP`
+
+🔗 [GitHub](https://github.com/KGU-HouseOfChoi)
 
 ---
 
 ### 🛠️ Tech Stack
 
-**Backend**
+**Language · Framework**  
 ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL·TimescaleDB-4169E1?style=flat&logo=postgresql&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=flat&logo=hibernate&logoColor=white)
+
+**Database · Messaging**  
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL·TimescaleDB-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white)
 
-**Frontend**
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-
-**Infra · CI/CD**
+**Infra · CI/CD**  
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat&logo=gitlab&logoColor=white)
@@ -51,7 +71,10 @@
 
 ---
 
-### 📫 Contact
-- 📬 Email: ah0416@naver.com
+### 📜 Certificates
+정보처리기사 · SQLD
 
 ---
+
+### 📫 Contact
+- 📬 Email: ah0416@naver.com
