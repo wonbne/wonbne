@@ -15,7 +15,7 @@
 
 `Java 21` `Spring Boot` `PostgreSQL / TimescaleDB` `MQTT` `STOMP` `Docker` `Nginx` `GitLab CI` `AWS EC2`
 
-> 코드 비공개 — 교육기관 GitLab에서 진행
+> [GitHub](https://github.com/Common-AIOT/Sentinel-UGV)
 
 <br>
 
