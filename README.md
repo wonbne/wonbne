@@ -5,9 +5,23 @@
 
 ### 💡 Projects
 
+#### 🚇 숨길
+서울시 공공데이터로 지하철과 따릉이 중 더 빠른 길을 실시간 비교해주는 지하철 탈출 내비게이션</br>
+6인 팀 · 6주 · **담당: 데이터 파이프라인 백엔드 전담, 공공데이터 적재**
+
+- 지하철 도착정보·따릉이 재고·날씨 공공 API를 수집해 Kafka로 발행하고 Redis에 반영하는 실시간 파이프라인 구현
+- 지하철 시각표·철도망 데이터 등 여러 원천을 대조·정제해 수도권 역·구간 소요시간 데이터 적재
+- 부하 측정으로 Kafka 도입 근거 검증 및 수집기·컨슈머를 k3s에 분리 배포
+
+`Java 21` `Spring Boot` `PostgreSQL` `Redis` `Apache Kafka` `Docker` `k3s` `AWS EC2`
+
+> [GitHub](https://github.com/Bunsan-Vacance/SUMGIL) <!-- TODO: 개인 GitHub 이관 후 링크 교체 -->
+
+<br>
+
 #### 🤖 Sentinel UGV
-재난 현장 자율 탐사 로봇의 실시간 관제 시스템  
-`6인 팀 · 4주` · **담당: 관제 백엔드 전담, CI/CD·인프라**
+서울시 공공데이터로 지하철과 따릉이 중 더 빠른 길을 실시간 비교해주는 지하철 탈출 내비게이션<br>
+6인 팀 · 6주 · **담당: 데이터 파이프라인 백엔드 전담, 공공데이터 적재**
 
 - 로봇 텔레메트리를 MQTT로 수집해 TimescaleDB에 적재하고 STOMP WebSocket으로 관제 화면에 전달하는 실시간 파이프라인 구현
 - 관제 화면의 상태 조회를 폴링에서 푸시 방식으로 전환
@@ -59,10 +73,12 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL·TimescaleDB-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white)
 
 **Infra · CI/CD**  
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/k3s%20·%20Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat&logo=gitlab&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
@@ -73,7 +89,7 @@
 ### 🎓 Education & Activities
 
 **SSAFY 15기** — 삼성 청년 SW 아카데미 `2026.01 - `  
-Java 기반 웹 풀스택 교육 및 팀 프로젝트 수행
+Java 기반 웹 풀스택 교육 및 빅데이터 분산처리 특화 프로젝트 수행
 
 **LG Aimers 5기** — LG AI 전문가 양성 과정 `2024.07 - 2024.08`  
 AI/ML 온라인 교육 과정 이수 및 해커톤 참여
